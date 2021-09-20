@@ -2,7 +2,8 @@
 
 **Version 1.0.0**
 
-An Extension of the Dictionaries made from linked list https://github.com/Justin-Chen1010/Dictionary-Linked-List
+The program will first parse through the file then recursively insert into the kdtree. After inserting the data, it will recursively iterate through the tree to make queries, and return the all of the information at that coordinate for example if we were to pick a spot in a mall we would find, it would also print to stdout the amount of key comparisons that were done to complete the search:
+
 
 **How you would call the program:**
 
@@ -15,7 +16,7 @@ We can insert the coordinates of the place that we want to find for example we w
 144.959522 -37.800095
 ```
 
-The program will first parse through the file then recursively insert into the kdtree. After inserting the data, it will recursively iterate through the tree to make queries, and return the all of the information at that coordinate for example if we were to pick a spot in a mall we would find, it would also print to stdout the amount of key comparisons that were done to complete the search:
+
 
 **Example Output to stdout:**
 ```
@@ -42,3 +43,5 @@ code: 4511 || Industry (ANZSIC4) description: Cafes and Restaurants || x coordin
 coordinate: -37.8002 || Location: (-37.80023252, 144.9592806) ||
 
 ```
+
+An Extension of the Dictionaries made from linked list https://github.com/Justin-Chen1010/Dictionary-Linked-List
