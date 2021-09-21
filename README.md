@@ -4,8 +4,7 @@
 
 The program will first parse through the file then recursively insert into the kdtree. After inserting the data, it will recursively iterate through the tree to make queries, and return the all of the information at that coordinate for example if we were to pick a spot in a mall we would find, it would also print to stdout the amount of key comparisons that were done to complete the search:
 
-
-**How you would call the program:**
+### How you would call the program:
 
 ```
 dict datafile outputfile < queryfile
@@ -18,12 +17,12 @@ We can insert the coordinates of the place that we want to find for example we w
 
 
 
-**Example Output to stdout:**
+### Example Output to stdout:
 ```
 144.959522 -37.800095 -- > 4815
 ```
 
-**Example Output to file:**
+### Example Output to file:
 
 ```
 
